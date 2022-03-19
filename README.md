@@ -5,3 +5,5 @@ If your facing "Unauthorised Access" via Eclipse while pushing the code.
 Then you have to make few changes in Your GitHub Account.
 
 Profile->Setting->Developer Setting->Personal Access Tokens->Delete->Genrate New Token
+
+The new Genrated Token you have to use as Password while pushing the code
