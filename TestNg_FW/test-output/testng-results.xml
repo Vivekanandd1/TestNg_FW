@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T09:44:07 IST" name="Suite" finished-at="2022-03-10T09:44:07 IST" duration-ms="134">
+    <groups>
+      <group name="smoke">
+        <method signature="_2_SecondTest.dems()[pri:0, instance:TestNg_Suite._2_SecondTest@b62d79]" name="dems" class="TestNg_Suite._2_SecondTest"/>
+        <method signature="_3_ThirdTest.meth2(java.lang.String)[pri:0, instance:TestNg_Suite._3_ThirdTest@5f9b2141]" name="meth2" class="TestNg_Suite._3_ThirdTest"/>
+        <method signature="_4_FourthTest.TriumphStreetTriple()[pri:0, instance:TestNg_Suite._4_FourthTest@6a84a97d]" name="TriumphStreetTriple" class="TestNg_Suite._4_FourthTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-03-10T09:44:07 IST" name="Regression" finished-at="2022-03-10T09:44:07 IST" duration-ms="134">
+      <class name="TestNg_Suite._3_ThirdTest">
+        <test-method signature="meth2(java.lang.String)[pri:0, instance:TestNg_Suite._3_ThirdTest@5f9b2141]" started-at="2022-03-10T09:44:07 IST" name="meth2" finished-at="2022-03-10T09:44:07 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Url' is required by @Test on method meth2 but has not been marked @Optional or defined
+in C:\Users\Sony\eclipse-workspace\TestNg_FW\SmokeTest.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Url' is required by @Test on method meth2 but has not been marked @Optional or defined
+in C:\Users\Sony\eclipse-workspace\TestNg_FW\SmokeTest.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth2 -->
+      </class> <!-- TestNg_Suite._3_ThirdTest -->
+      <class name="TestNg_Suite._2_SecondTest">
+        <test-method signature="dems()[pri:0, instance:TestNg_Suite._2_SecondTest@b62d79]" started-at="2022-03-10T09:44:07 IST" name="dems" finished-at="2022-03-10T09:44:07 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dems -->
+      </class> <!-- TestNg_Suite._2_SecondTest -->
+      <class name="TestNg_Suite._4_FourthTest">
+        <test-method signature="TriumphStreetTriple()[pri:0, instance:TestNg_Suite._4_FourthTest@6a84a97d]" started-at="2022-03-10T09:44:07 IST" name="TriumphStreetTriple" finished-at="2022-03-10T09:44:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TriumphStreetTriple -->
+      </class> <!-- TestNg_Suite._4_FourthTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
